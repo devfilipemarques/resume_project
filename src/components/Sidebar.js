@@ -8,7 +8,6 @@ import {
   IoLocationOutline,
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoBehance,
   IoCalendarNumberOutline,
@@ -129,17 +128,6 @@ function Sidebar() {
               rel="noreferrer"
             >
               <IoLogoGithub className="ion-icon" />
-            </a>
-          </li>
-
-          <li className="social-item">
-            <a
-              href="#"
-              target="_blank"
-              className="social-link"
-              rel="noreferrer"
-            >
-              <IoLogoTwitter className="ion-icon" />
             </a>
           </li>
 
