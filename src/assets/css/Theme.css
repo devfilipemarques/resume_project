@@ -557,6 +557,9 @@ article.active {
     font-weight: var(--fw-3);
     line-height: 1.6;
 }
+.service-logos-space {
+    padding: 0px 30px 0px 0px;
+}
 
 /* TESTIMONIALS */
 .testimonials {

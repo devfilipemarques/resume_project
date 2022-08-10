@@ -1,4 +1,5 @@
 import Description from './about/description';
+import Services from './about/services';
 
 function About() {
     return (
@@ -7,6 +8,7 @@ function About() {
                 <h2 className="h2 article-title">Sobre</h2>
             </header>
             <Description/>
+            <Services/>
         </article>
     )
 }
