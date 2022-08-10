@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/css/theme.css';
+import './assets/js/script';
 import reportWebVitals from './reportWebVitals';
 import Sidebar from './components/sidebar';
 import Content from './content';

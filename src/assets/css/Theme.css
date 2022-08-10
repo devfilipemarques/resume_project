@@ -429,6 +429,15 @@ article.active {
     transition: color var(--transition-1);
 }
 
+.navbar-link a{
+    color: var(--light-gray);
+}
+
+.navbar-link a:hover, .navbar-link a:focus{
+    color: var(--light-gray-70);
+}
+
+
 .navbar-link:hover,
 .navbar-link:focus {
     color: var(--light-gray-70);

@@ -7,11 +7,11 @@ function Nav() {
                 </li>
 
                 <li className="navbar-item">
-                    <button className="navbar-link" data-nav-link>Resumo</button>
+                    <button className="navbar-link" data-nav-link>Resume</button>
                 </li>
 
                 <li className="navbar-item">
-                    <button className="navbar-link" data-nav-link>Portfolio</button>
+                    <button className="navbar-link"><a href="https://www.behance.net/devfilipemarques" target="_blank" rel="noreferrer">Portfolio</a></button>
                 </li>
 
                 <li className="navbar-item">
