@@ -11,7 +11,7 @@ function Services() {
         <section className="service">
             <h3 className="h3 service-title">Experiência em:</h3>
             <ul className="service-list">
-                <table cellspacing="12" cellpadding="12" width="100%">
+                <table cellspacing="12" cellpadding="12" width="100%" className='table-service'>
                     <tr>
                         <td className="service-logos-space" align="center">
                             <img src={HTML5} width={80} /><p className='service-item-text'>HTML5</p>
