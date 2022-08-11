@@ -153,6 +153,7 @@ function Sidebar() {
             </a>
           </li>
         </ul>
+        <div className="copyright">Desenvolvido com <span>♥</span> por <a href="https://github.com/devfilipemarques">Filipe Reis</a></div>
       </div>
     </aside>
   );

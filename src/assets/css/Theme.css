@@ -750,6 +750,23 @@ article.active {
     margin-bottom: 30px;
 }
 
+/* FOOTER */
+.copyright {
+    color: #858a96;
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.copyright span{
+    color: #c3002f;
+    display: inline;
+}
+
+.copyright a {
+    color: #9c63ff;
+    display: inline;
+}
+
 /* EDUCATION & EXPERIENCE */
 .timeline {
     margin-bottom: 30px;
