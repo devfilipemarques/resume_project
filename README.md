@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Resume Theme React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="http://www.typescriptlang.org/"><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg?style=flat-square" height="20"></a>
 
-## Available Scripts
+This theme was created to show your online curriculum, the application developed in [React](https://reactjs.org/), HTML and CSS.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Optimize the time spent to attach your resume via email
+- Helps the environment not to print more papers
+- Simple to configure
+- Agility in accessing and viewing
+- Economical route system
+- HTML page rendering (SSR) at CDN edge locations
+- Hot module replacement during local development using React Refetch
+- Pre-configured with CSS-in-JS styling
+- Pre-configured with code quality tools: ESLint, Prettier, TypeScript, etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://fabulous-conkies-a11ca7.netlify.app/"><img src="https://i.imgur.com/RSWCjJO.png" /></a>&nbsp;&nbsp;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Directory Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`├──`[`.github`](.github) — GitHub configuration including CI/CD workflows<br>
+`├──`[`main`](./main) — Web application front-end built with [React](https://reactjs.org/) and [Material UI](https://mui.com/core/)<br>
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/), [Recoil](https://recoiljs.org/),
+  [TypeScript](https://www.typescriptlang.org/), [ESLint](https://eslint.org/),
+  [Prettier](https://prettier.io/), [Jest](https://jestjs.io/),
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) v18 or newer, [Yarn](https://yarnpkg.com/) package manager
+- [VS Code](https://code.visualstudio.com/) editor with [recommended extensions](.vscode/extensions.json)
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Generate](https://github.com/devfilipemarques/resume_project/generate) a new project
+from this template, clone it, install project dependencies, and start hacking:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ git clone https://github.com/devfilipemarques/resume_project.git example
+$ cd ./example
+$ npm install
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The app will become available at [http://localhost:3000](http://localhost:3000/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**IMPORTANT**: Ensure that VSCode is using the workspace [version of TypeScript](https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-newer-typescript-versions)
+and ESLint.
 
-## Learn More
+![](https://files.tarkus.me/typescript-workspace.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npm start` — Launches the app in development mode on [`http://localhost:3000`](http://localhost:3000/)
+- `npm build` — Compiles and bundles the app for deployment
+- `npm lint` — Validate the code using ESLint
+- `npm tsc` — Validate the code using TypeScript compiler
+- `npm test` — Run unit tests with Jest, Supertest
+- `npm edge deploy` — Deploys the app to Cloudflare
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<sup>Made with ♥ by Filipe Reis [dev](https://github.com/devfilipemarques).</sup>
